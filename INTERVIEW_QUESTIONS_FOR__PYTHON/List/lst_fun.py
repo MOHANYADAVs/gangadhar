@@ -1,0 +1,26 @@
+lst = ["Gangadhar",2,5.5,True,5.5,5+7j]
+print(lst)
+print(len(lst))
+print(lst.count(67)) #unknown element
+print(lst.count(5.5))
+print(lst.index("Gangadhar"))
+print(lst.index(5.5))
+# list increassing
+print(lst)
+lst.append(10)
+print(lst)
+lst.append([10,20,30])
+print(lst)
+lst.extend([10,20,30])
+print(lst)
+lst.insert(6,"Gangadhar")
+print(lst)
+# lst decreesing
+lst.remove("Gangadhar")
+print(lst)
+lst.pop(7)
+print(lst)
+lst.reverse()
+print(lst)
+lst.sort()
+print(lst)
